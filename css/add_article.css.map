@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,wBAAwB;AACxB,IAAI;EACA,SAAS,EAAE,QAAQ",
+"sources": ["../sass/add_article.scss"],
+"names": [],
+"file": "add_article.css"
+}
