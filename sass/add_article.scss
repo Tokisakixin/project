@@ -1,4 +1,36 @@
 /* 100/6.4 1rem=100px */
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     font-size: 15.625vw;
+    height: 100%;
+    .container{
+        margin: 0 .5rem;
+        font: .24rem/.36rem "";
+
+        legend{
+            font: .5rem/1rem "";
+        }
+
+        .form-group{
+            width: 100%;
+            
+            .form-control{
+                width: 100%;
+                height: .36rem;
+                margin: .1rem 0;
+            }
+        }
+
+        .btn{
+            width: 1.5rem;
+            height: .5rem;
+            background-color: greenyellow;
+            border-radius: 5%;
+            color: honeydew;
+            font: 900 .3rem/.5rem "";
+        }
+    }
 }

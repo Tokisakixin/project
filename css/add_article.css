@@ -1,5 +1,28 @@
 /* 100/6.4 1rem=100px */
+* {
+  margin: 0;
+  padding: 0; }
+
 html {
-  font-size: 15.625vw; }
+  font-size: 15.625vw;
+  height: 100%; }
+  html .container {
+    margin: 0 .5rem;
+    font: .24rem/.36rem ""; }
+    html .container legend {
+      font: .5rem/1rem ""; }
+    html .container .form-group {
+      width: 100%; }
+      html .container .form-group .form-control {
+        width: 100%;
+        height: .36rem;
+        margin: .1rem 0; }
+    html .container .btn {
+      width: 1.5rem;
+      height: .5rem;
+      background-color: greenyellow;
+      border-radius: 5%;
+      color: honeydew;
+      font: 900 .3rem/.5rem ""; }
 
 /*# sourceMappingURL=add_article.css.map */
