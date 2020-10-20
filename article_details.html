@@ -5,18 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/article_details.css">
-    <!-- <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/4.5.1/css/swiper.css" rel="stylesheet">
-    <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/4.5.1/js/swiper.js"></script> -->
 </head>
 <body>
     <header>
         <div id="go_back"></div>
-        <div id="article_name">商品名称</div>
+        <div id="title_name">商品名称</div>
     </header>
     <main>
         <div>
             <img src="" alt="">
         </div>
+        <p>商品名称：<span id="pro_name">假装有</span></p>
+        <p>商品价格：<span id="pro_price">假装有</span></p>
+        <p>商品尺寸：<span id="pro_size">假装有</span></p>
+        <p>商品数量：<span id="pro_num">假装有</span></p>
     </main>
+    <footer>
+        <a href="">店铺</a>
+        <a href="">客服</a>
+        <a href="">收藏</a>
+        <a href="">添加购物车</a>
+        <a href="">立即购买</a>
+    </footer>
 </body>
+<script>
+    let $ = ele => { return document.querySelector( ele ) }
+
+    // 返回上一页
+    $("#go_back").onclick = function(){
+        history.go( -1 )
+    }
+
+    
+</script>
 </html>
