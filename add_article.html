@@ -54,11 +54,10 @@
 
     $( "#send" ).onclick = function(){
         //获取页面中填写的数据
-        let data_str = `article_name=${$("#article_name").value}&article_price=${$("#article_price").value}&article_size=${$("#article_size").value}&article_nums=${$("#article_nums").value}&article_imgs=${$("#article_imgs").value}`
+        let data_str = `pro_name=${$("#article_name").value}&pro_price=${$("#article_price").value}&pro_size=${$("#article_size").value}&pro_num=${$("#article_nums").value}&pro_src=${$("#article_imgs").value}`
 
-        //注意！！此处url路径为空
-        console.log( "标记" );
-        ajax_post( "",data_str ).then(res=>{
+        
+        ajax_post( "./api/add.php",data_str ).then(res=>{
             console.log( res )
             let obj = JSON.parse( res )
             if( obj.ok ){
