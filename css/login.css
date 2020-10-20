@@ -30,13 +30,16 @@ html {
         width: 100%; }
     html body main {
       flex: 1;
-      overflow-y: auto; }
+      overflow-y: auto;
+      padding: .2rem .2rem 0; }
       html body main div {
         width: 100%;
         font: .24rem/.48rem ""; }
         html body main div input {
           width: 100%;
           margin: .1rem 0;
-          height: .45rem; }
+          font: .24rem/.48rem "";
+          border: .01rem solid #ccc;
+          border-radius: .05rem; }
 
 /*# sourceMappingURL=login.css.map */

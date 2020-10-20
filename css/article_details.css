@@ -27,7 +27,7 @@ html {
         background: url(../icon/返回.png) no-repeat center/0.45rem;
         left: .2rem;
         position: absolute; }
-      html body header #pro_name {
+      html body header #title_name {
         font: .42rem/1rem "";
         margin: 0 .2rem;
         text-align: center;
